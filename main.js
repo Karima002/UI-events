@@ -1,4 +1,4 @@
-/*
+/*  
    De eerste interactie is al voor jullie uitgewerkt
    Als je op het 12e linkje klikt (“Interaction”), springt deze omhoog
 */
@@ -21,15 +21,23 @@ function jumpHandler() {
 // Extraatje, waardoor de class weer weggehaald wordt zodra de animatie afgelopen is
 interaction.addEventListener('animationend', jumpHandler)
 
-
+{
 // Ga zelf verder met de overige elementen, aan de hand van de instructies
 // Maak bijvoorbeeld een bibber animatie als je op iets klikt
 
 // Stap 1: querySelector
 // let bibberLink = document.querySelector...
-
+let interaction = document.querySelector('a:nth-of-type(1)')
+console.log(interaction)
 // Stap 2: addEventListener
 // bibberLink.addEventListener...
+interaction.addEventListener('click', shakeIt)
 
+function shakeIt() {
 // Stap 3: (Callback functie met) classList (.toggle(), .add(), etc.)
 // bibberLink.classList.toggle...
+
+
+interaction.classList.toggle('shake')
+}
+}
