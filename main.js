@@ -41,11 +41,10 @@ function translateY () {
   interactionThird.classList.toggle('up')
 }
 
-//MARK: 4e interacietie
+//MARK: 4e interactie
 let interactionFourth = document.querySelector('a:nth-of-type(3)')
 
-interactionFourth.addEventListener('hover', BorderR)
+interactionFourth.addEventListener('focusin', (event) => {
+  event.target.style.background = 'orange';
+});
 
-function BorderR () {
-  interactionFourth.classList.toggle('round')
-}

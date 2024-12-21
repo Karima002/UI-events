@@ -151,7 +151,7 @@ a:nth-of-type(2) {
   
 }
 
-/* 2e interactie */
+/* 3e interactie */
 
 a:nth-of-type(3) {
   background-color: var(--hightlight-secondarydarker1);
@@ -160,27 +160,3 @@ a:nth-of-type(3) {
 
 }
 
-.round {
-  animation-name: borderradius;
-  animation-duration: 1s;
-  animation-iteration-count: 3;
-}
-
-@keyframes borderradius {
-  0% {
-    border-radius: 0%;
-  }
-  30% {
-    border-radius: 0%;
-  }
-  50% {
-    border-radius: 0%;
-  }
-  60% {
-    border-radius: 0%;
-  }
-  70% {
-    border-radius: 0%;
-  }
-  
-}
