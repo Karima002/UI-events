@@ -1,4 +1,3 @@
-//MARK: 1e interactie
 
 // Stap 1: selecteer het 12e linkje, en sla deze op in een variabele
 let interaction = document.querySelector('a:nth-of-type(12)')
@@ -19,32 +18,40 @@ function jumpHandler() {
 interaction.addEventListener('animationend', jumpHandler)
 
 
-//MARK: 2e interactie
+//MARK: 1e interactie
 
 // Stap 1: querySelector
-let interactionSecond = document.querySelector('a:nth-of-type(1)')
+let interactionFirst = document.querySelector('a:nth-of-type(1)')
 
 // Stap 2: addEventListener
-interactionSecond.addEventListener('click', shakeIt)
+interactionFirst.addEventListener('click', shakeIt)
 
 // Stap 3: (Callback functie met) classList (.toggle(), .add(), etc.)
 function shakeIt () {
-  interactionSecond.classList.toggle('shake')
+  interactionFirst.classList.toggle('shake')
+}
+
+//MARK: 2e interactie
+let interactionSecond = document.querySelector('a:nth-of-type(2)')
+
+interactionSecond.addEventListener('mouseover', translateY)
+
+function translateY () {
+  interactionSecond.classList.toggle('up')
 }
 
 //MARK: 3e interactie
-let interactionThird = document.querySelector('a:nth-of-type(2)')
+let interactionThird = document.querySelector('a:nth-of-type(3)')
 
-interactionThird.addEventListener('mouseover', translateY)
-
-function translateY () {
-  interactionThird.classList.toggle('up')
-}
-
-//MARK: 4e interactie
-let interactionFourth = document.querySelector('a:nth-of-type(3)')
-
-interactionFourth.addEventListener('focusin', (event) => {
+interactionThird.addEventListener('focusin', (event) => {
   event.target.style.background = 'orange';
 });
 
+//MARK: 4e interactie
+let interactionFourth = document.querySelector('a:nth-of-type(4)')
+
+interactionFourth.addEventListener('click', rotate)
+
+function rotate () {
+  interactionFourth.classList.toggle('rotating')
+}

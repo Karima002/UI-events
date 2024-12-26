@@ -160,3 +160,16 @@ a:nth-of-type(3) {
 
 }
 
+/* 4e interactie */
+a:nth-of-type(4) {
+  background-color: var(--highlight-secondary);
+  color: var(--primary);
+  border-color: var(--highlight-secondary);
+
+}
+
+.rotating {
+  transition-duration:1s;
+  rotate:180deg;
+
+}
