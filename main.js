@@ -55,3 +55,12 @@ interactionFourth.addEventListener('click', rotate)
 function rotate () {
   interactionFourth.classList.toggle('rotating')
 }
+
+//MARK: 5e interactie
+let interactionFifth = document.querySelector('a:nth-of-type(5)')
+
+interactionFifth.addEventListener('keydown', transform)
+
+function transform () {
+  interactionFifth.classList.toggle('transform-orgin')
+}

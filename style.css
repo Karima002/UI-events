@@ -171,5 +171,18 @@ a:nth-of-type(4) {
 .rotating {
   transition-duration:1s;
   rotate:180deg;
+}
 
+/* 5e interactie */
+
+a:nth-of-type(5){
+  background-color: var(--highlight-secondarydarker);
+  color: var(--primary);
+  border-color: var(--highlight-secondarydarker);
+}
+
+.transform-orgin {
+  transform: 
+    perspective(30em)
+    rotateX(60deg); 
 }
