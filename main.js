@@ -64,3 +64,14 @@ interactionFifth.addEventListener('keydown', transform)
 function transform () {
   interactionFifth.classList.toggle('transform-orgin')
 }
+
+//MARK: 6e interactie
+
+let interactionSix = document.querySelector('a:nth-of-type(6)')
+
+interactionSix.addEventListener('mouseleave', scale)
+
+function scale () {
+interactionSix.classList.toggle('property-scales')
+
+}

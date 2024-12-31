@@ -186,3 +186,16 @@ a:nth-of-type(5){
     perspective(30em)
     rotateX(60deg); 
 }
+
+
+/* 6e interactie */
+
+a:nth-of-type(6) {
+  background: var(--highlight-secondary);
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.property-scales {
+  scale: 2.5; /*2.5 keer zo*/
+}
