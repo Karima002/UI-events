@@ -153,31 +153,31 @@ a:nth-of-type(2) {
 /* 3e interactie */
 
 a:nth-of-type(3) {
-  background-color: var(--hightlight-secondarydarker1);
-  color: var(--primary);
-  border-color: var(--hightlight-secondarydarker1);
-  transition: all 1s ease-out;
+    background-color: var(--hightlight-secondarydarker1);
+    color: var(--primary);
+    border-color: var(--hightlight-secondarydarker1);
+    transition: all 1.5s ease-out;
 }
 
 /* 4e interactie */
 a:nth-of-type(4) {
-  background-color: var(--highlight-secondary);
-  color: var(--primary);
-  border-color: var(--highlight-secondary);
+    background-color: var(--highlight-secondary);
+    color: var(--primary);
+    border-color: var(--highlight-secondary);
 
 }
 
 .rotating {
-  transition-duration:1s;
-  rotate:180deg;
+    transition-duration:1s;
+    rotate:180deg;
 }
 
 /* 5e interactie */
 
 a:nth-of-type(5){
-  background-color: var(--highlight-secondarydarker);
-  color: var(--primary);
-  border-color: var(--highlight-secondarydarker);
+    background-color: var(--highlight-secondarydarker);
+    color: var(--primary);
+    border-color: var(--highlight-secondarydarker);
 }
 
 .transform-orgin {
