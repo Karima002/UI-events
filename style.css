@@ -156,7 +156,7 @@ a:nth-of-type(3) {
   background-color: var(--hightlight-secondarydarker1);
   color: var(--primary);
   border-color: var(--hightlight-secondarydarker1);
-
+  transition: all 1s ease-out;
 }
 
 /* 4e interactie */
