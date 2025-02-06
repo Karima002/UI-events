@@ -24,7 +24,7 @@ interaction.addEventListener('animationend', jumpHandler)
 let interactionFirst = document.querySelector('a:nth-of-type(1)')
 
 // Stap 2: addEventListener
-interactionFirst.addEventListener('click', shakeIt)
+interactionFirst.addEventListener('dblclick', shakeIt)
 
 // Stap 3: (Callback functie met) classList (.toggle(), .add(), etc.)
 function shakeIt () {
