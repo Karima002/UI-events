@@ -75,3 +75,6 @@ function scale () {
 interactionSix.classList.toggle('property-scales')
 
 }
+
+
+

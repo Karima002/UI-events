@@ -19,6 +19,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
   background: var(--secondary);
+  color: var(--primary)
 }
 section {
   max-width: 90vw;
